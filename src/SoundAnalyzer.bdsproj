@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppVCLApplication</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{831EF798-14CB-409F-9586-0E45CD74ADEE}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<Source>
+			<Source Name="MainSource">SoundAnalyzer.cpp</Source>
+		</Source>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="."/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="."/>
+        <property category="build.node" name="lastconfig" value="Release_Build"/>
+        <property category="build.node" name="name" value="SoundAnalyzer.exe"/>
+        <property category="build.node" name="packages" value="vcl;rtl;vclx;dbrtl;vcldb;adortl;dbxcds;dbexpress;vclib;ibxpress;xmlrtl;vclactnband;inet;IntrawebDB_80_100;Intraweb_80_100;vclie;inetdbbde;inetdbxpress;IndyCore;IndySystem;bcboffice2k;bcbsmp;soaprtl;dsnap;IndyProtocols;bcbie;bdertl;teeui;teedb;tee;vcldbx;dsnapcon;websnap;webdsnap"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib vcl.lib bcbsmp.lib vclx.lib"/>
+        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.V.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.Od.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedOptimizations.containerenabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="container.SelectedWarnings.containerenabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.4.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.5.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.6.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.A.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AK.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.AU.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="E:\programs\c++\Sound analyzer\07.08"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Jgx.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.O2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.V0.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.V1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vmm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vms.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-1.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-2.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-3.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-5.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.disablewarns.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.ffp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.p.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pm.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.pr.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.ps.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.rd.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="USEPACKAGES"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWC.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWD.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.vi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.w.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.wcsu.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.wncf.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="E:\programs\c++\Sound analyzer\07.08"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="E:\programs\c++\Sound analyzer\07.08"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="E:\programs\c++\Sound analyzer\07.08"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="E:\programs\c++\Sound analyzer\07.08"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="C:\Users\XXX\Documents\Borland Studio Projects"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="E:\programs\c++\Sound"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="analyzer"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="E:\programs\c++\Sound"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="analyzer"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.5" value="E:\programs\c++\Sound"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.6" value="analyzer"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="E:\programs\c++\Sound analyzer\07.08"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="$(BDS)\lib\psdk"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpe.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.ap.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="E:\programs\c++\Sound analyzer\07.08"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0w32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="memmgr.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="SoundAnalyzer.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="SoundAnalyzer.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="SoundAnalyzer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SoundAnalyzer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DspUtil.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DspUtil" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DspUtil.h"/>
+        <FILE FILENAME="SoundIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SoundIO" FORMNAME="" DESIGNCLASS="" ADDITIONAL="SoundIO.h"/>
+        <FILE FILENAME="SoundAnalysis.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SoundAnalysis" FORMNAME="Form1" DESIGNCLASS="" ADDITIONAL="SoundAnalysis.h"/>
+        <FILE FILENAME="WaveDisplayData.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WaveDisplayData" FORMNAME="" DESIGNCLASS="" ADDITIONAL="WaveDisplayData.h"/>
+        <FILE FILENAME="ImportDlg.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ImportDlg" FORMNAME="RawImportDialog" DESIGNCLASS="" ADDITIONAL="ImportDlg.h"/>
+        <FILE FILENAME="WaveDisplayContainer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WaveDisplayContainer" FORMNAME="" DESIGNCLASS="" ADDITIONAL="WaveDisplayContainer.h"/>
+        <FILE FILENAME="WaveDisplayContainerManager.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WaveDisplayContainerManager" FORMNAME="" DESIGNCLASS="" ADDITIONAL="WaveDisplayContainerManager.h"/>
+        <FILE FILENAME="WinWavePlayer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WinWavePlayer" FORMNAME="" DESIGNCLASS="" ADDITIONAL="WinWavePlayer.h"/>
+        <FILE FILENAME="GenericWavePlayer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="GenericWavePlayer" FORMNAME="" DESIGNCLASS="" ADDITIONAL="GenericWavePlayer.h"/>
+        <FILE FILENAME="ToneGenDlg.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ToneGenDlg" FORMNAME="ToneGeneratorDlg" DESIGNCLASS="" ADDITIONAL="ToneGenDlg.h"/>
+        <FILE FILENAME="ToneGenerator.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ToneGenerator" FORMNAME="" DESIGNCLASS="" ADDITIONAL="ToneGenerator.h"/>
+        <FILE FILENAME="Stft.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Stft" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Stft.h"/>
+        <FILE FILENAME="GradientColor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="GradientColor" FORMNAME="" DESIGNCLASS="" ADDITIONAL="GradientColor.h"/>
+        <FILE FILENAME="StftControl.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="StftControl" FORMNAME="pStftControl" DESIGNCLASS="" ADDITIONAL="StftControl.h"/>
+        <FILE FILENAME="SpectralTool.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SpectralTool" FORMNAME="pSpectralForm" DESIGNCLASS="" ADDITIONAL="SpectralTool.h"/>
+        <FILE FILENAME="DigitalFilter.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DigitalFilter" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DigitalFilter.h"/>
+        <FILE FILENAME="WaveformView.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WaveformView" FORMNAME="" DESIGNCLASS="" ADDITIONAL="WaveformView.h"/>
+        <FILE FILENAME="SpectrogramView.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SpectrogramView" FORMNAME="" DESIGNCLASS="" ADDITIONAL="SpectrogramView.h"/>
+        <FILE FILENAME="DumpToFileDlg.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DumpToFileDlg" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DumpToFileDlg.h"/>
+        <FILE FILENAME="Debug.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Debug" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Debug.h"/>
+        <FILE FILENAME="SelectionOverlay.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SelectionOverlay" FORMNAME="" DESIGNCLASS="" ADDITIONAL="SelectionOverlay.h"/>
+        <FILE FILENAME="WavePlayer.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Util.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FileLayout.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FilterGeneratorDlg.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FilterGeneratorDlg" FORMNAME="pFilterDlg" DESIGNCLASS="" ADDITIONAL="FilterGeneratorDlg.h"/>
+        <FILE FILENAME="ContainerView.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="MixedView.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MixedView" FORMNAME="" DESIGNCLASS="" ADDITIONAL="MixedView.h"/>
+        <FILE FILENAME="TimePanel.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TimePanel" FORMNAME="" DESIGNCLASS="" ADDITIONAL="TimePanel.h"/>
+        <FILE FILENAME="ProgressIndicator.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ProgressIndicator" FORMNAME="frmProgressDlg" DESIGNCLASS="" ADDITIONAL="ProgressIndicator.h"/>
+        <FILE FILENAME="WorkerThread.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WorkerThread" FORMNAME="" DESIGNCLASS="" ADDITIONAL="WorkerThread.h"/>
+        <FILE FILENAME="fft.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="fft" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="MemBuffer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MemBuffer" FORMNAME="" DESIGNCLASS="" ADDITIONAL="MemBuffer.h"/>
+        <FILE FILENAME="WndData.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WndData" FORMNAME="" DESIGNCLASS="" ADDITIONAL="WndData.h"/>
+        <FILE FILENAME="TrackControl.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TrackControl" FORMNAME="TrackControlDlg" DESIGNCLASS="" ADDITIONAL="TrackControl.h"/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">1050</VersionInfo>
+          <VersionInfo Name="CodePage">1250</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs"></Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<buildevents/>
+	</CPlusPlusBuilder.Personality>
+	<StarTeamAssociation></StarTeamAssociation>
+	<StarTeamNonRelativeFiles></StarTeamNonRelativeFiles>
+</BorlandProject>
