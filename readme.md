@@ -37,7 +37,7 @@ In fact, I've already done some work on GMMs and NMFs but left them out of the c
 
 	- advanced filtering. It's possible to create multiple filtered tracks at once (using a bandpass filter), which speeds up the filtering dramatically. 
 	
-	- tone generation. Unlike most tone generators, the SA tone generator can create a fundamental tone plus as many harmonics as you want. You can also manually change the amplitudes and frequencies of the harmonics
+	- tone generation. Unlike most tone generators, the SA tone generator can create a fundamental tone plus as many harmonics as you want. You can also manually change the  		amplitudes and frequencies of the harmonics
 	
 	- dumping the analysis results to a file for later analysis using using other software.
 	
@@ -46,7 +46,7 @@ In fact, I've already done some work on GMMs and NMFs but left them out of the c
 The SA application is written primarily for developers and is not meant to be used for end users at this point (the provided binary is not a standalone application). 
 By examining the application code, developers should get acquainted  with the library and how it works internally. 
 
-<img src="https://drive.google.com/file/d/17eeEIIMkIi6HizZqMHVq2YIw5_1B8UQ7/view?usp=sharing" >
+![SA application demo](<https://github.com/IvanGH2/SoundAnalysis/blob/master/src/SA_demo.jpeg >)
 	
 5. To do
 
