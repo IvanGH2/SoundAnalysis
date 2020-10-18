@@ -6,25 +6,20 @@ Sound analysis is a collection of modules for audio analysis that I've written i
 An application demonstrating the SA capabilities is provided as well. Since documentation is currently lacking, having an application should help developers to get started with using the library.
 I intend to write documentation covering the most important API-s by the end of the year because I don't think that any software can gain traction and reach wider audience without it.
 
+
+
 1. Technology
-2. Purpose of the library
-3. Main features
-4. SA application
-5. To do
-6. Bugs
-7. Suggestions
 
-
-
-1. The library is written in c++03 using the Borland bcc32 compiler (c++ builder). The current version compiles and runs only on Windows. 
+The library is written in c++03 using the Borland bcc32 compiler (c++ builder). The current version compiles and runs only on Windows. 
 This compiler is old and it affected the way I wrote some module, primarily I wasn't able to make the FFT stuff use SIMD instructions (data parallelism), 
 which could've boosted  performance by several times.
 While the GUI and multithreading support depend on the VCL (Visual Component Library) library, which is not portable, all the other stuff use standard 
 c++ so it should be possible to port this library to other platforms (e.g Linux) relatively easily, provided of course that you rewrite 
 the GUI/multithreading stuff. There's a Linux equivalent of VCL, so that could help too if one descides to go in that direction.
 
+2. Purpose of the library
 
-2. While there are some open-source sound analysis libraries available (e.g Sonic visualizer and even Audacity has some analysis features), I think they're pretty basic and 
+While there are some open-source sound analysis libraries available (e.g Sonic visualizer and even Audacity has some analysis features), I think they're pretty basic and 
 I wanted to see some additional features anyway. Plus, I wanted to teach myself some dsp programming as well. At the moment SA really doesn't do 
 much more than the two applications I've just mentioned (and it'is more buggy) but I plan to add more features in the future and hopefully other
 developers interested in this kind of thing will start contributing.
@@ -51,7 +46,7 @@ In fact, I've already done some work on GMMs and NMFs but left them out of the c
 The SA application is written primarily for developers and is not meant to be used for end users at this point (the provided binary is not a standalone application). 
 By examining the application code, developers should get acquainted  with the library and how it works internally. 
 
-![SA application demo](../blob/SA_demo.jpg)
+![SA application demo](../SA_demo.jpeg)
 	
 4. To do
 
