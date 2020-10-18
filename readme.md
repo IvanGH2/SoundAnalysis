@@ -46,7 +46,7 @@ In fact, I've already done some work on GMMs and NMFs but left them out of the c
 The SA application is written primarily for developers and is not meant to be used for end users at this point (the provided binary is not a standalone application). 
 By examining the application code, developers should get acquainted  with the library and how it works internally. 
 
-![SA application demo](<img src="https://drive.google.com/file/d/17eeEIIMkIi6HizZqMHVq2YIw5_1B8UQ7/view?usp=sharing" >)
+<img src="https://drive.google.com/file/d/17eeEIIMkIi6HizZqMHVq2YIw5_1B8UQ7/view?usp=sharing" >
 	
 5. To do
 
