@@ -46,9 +46,9 @@ In fact, I've already done some work on GMMs and NMFs but left them out of the c
 The SA application is written primarily for developers and is not meant to be used for end users at this point (the provided binary is not a standalone application). 
 By examining the application code, developers should get acquainted  with the library and how it works internally. 
 
-![SA application demo](<img src="https://raw.githubusercontent.com/IvanGH2/SoundAnalysis/src/SA_demo.jpeg?raw=true" />)
+![SA application demo](<img src="https://drive.google.com/file/d/17eeEIIMkIi6HizZqMHVq2YIw5_1B8UQ7/view?usp=sharing" >)
 	
-4. To do
+5. To do
 
 	- developers' documentation is lacking so the focus now will be on describing the most useful (or necessary) API-s in order for developers to be able to play with the existing code, add new features, fix bugs etc. This
 	is arguably the most important thing, otherwise I can't really expect that anyone will want to use the library.
@@ -59,7 +59,7 @@ By examining the application code, developers should get acquainted  with the li
 	
 	- integrating some advanced statistics into the analysis phase. I've already done some work on GMM and NMF and am now looking into ways how to best integrate that stuff with the existing code. 
 		
-5. Bugs
+6. Bugs
 	-  yes, the SA software is quite buggy at this point
 	
 	- I'll try to fix bugs as soon as they're reported especially serious bugs like access violations and illegal floating point operations. Still, given 
