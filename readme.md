@@ -1,6 +1,8 @@
 
 Sound analysis ( SA )
 
+![SA application demo](<https://github.com/IvanGH2/SoundAnalysis/blob/master/src/SA_demo.jpeg >)
+
 
 Sound analysis is a collection of modules for audio analysis that I've written in my free time. It is written mostly as a library but contains elements of a framework (e.g callbacks).
 An application demonstrating the SA capabilities is provided as well. Since documentation is currently lacking, having an application should help developers to get started with using the library.
@@ -46,7 +48,6 @@ In fact, I've already done some work on GMMs and NMFs but left them out of the c
 The SA application is written primarily for developers and is not meant to be used for end users at this point (the provided binary is not a standalone application). 
 By examining the application code, developers should get acquainted  with the library and how it works internally. 
 
-![SA application demo](<https://github.com/IvanGH2/SoundAnalysis/blob/master/src/SA_demo.jpeg >)
 	
 5. To do
 
